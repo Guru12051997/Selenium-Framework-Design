@@ -62,7 +62,7 @@ public class BaseTest {
 		
 		
 		
-		
+		}
 		
 		
 //mvn test -PRegression -Dbrowser=firefox 
