@@ -9,154 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Submit Order Test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">3,682</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Error validations Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">2,330</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num attn">5</th><th class="num">0</th><th class="num">6,012</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Submit Order Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">22,257</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Error validations Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">9,746</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">5</th><th class="num">0</th><th class="num">0</th><th class="num">32,003</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Submit Order Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="4">HCL_TECH.SeleniumFrameworkDesign.Standalone</td><td><a href="#m0">launchApplication</a></td><td rowspan="2">1686565271345</td><td rowspan="2">2459</td></tr><tr class="failedeven"><td><a href="#m1">launchApplication</a></td></tr><tr class="failedeven"><td><a href="#m2">tearDown</a></td><td rowspan="2">1686565274747</td><td rowspan="2">0</td></tr><tr class="failedeven"><td><a href="#m3">tearDown</a></td></tr><tr><th colspan="4">Submit Order Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">HCL_TECH.SeleniumFrameworkDesign.Standalone</td><td><a href="#m4">SubmitOrder</a></td><td rowspan="2">1686565273820</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m5">SubmitOrder</a></td></tr><tr class="skippedeven"><td><a href="#m6">orderHistory</a></td><td rowspan="1">1686565274753</td><td rowspan="1">0</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Error validations Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="4">HCL_TECH.SeleniumFrameworkDesign.ErrorValidation</td><td><a href="#m7">launchApplication</a></td><td rowspan="2">1686565275154</td><td rowspan="2">1174</td></tr><tr class="failedeven"><td><a href="#m8">launchApplication</a></td></tr><tr class="failedeven"><td><a href="#m9">tearDown</a></td><td rowspan="2">1686565277480</td><td rowspan="2">0</td></tr><tr class="failedeven"><td><a href="#m10">tearDown</a></td></tr><tr><th colspan="4">Error validations Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">HCL_TECH.SeleniumFrameworkDesign.ErrorValidation</td><td><a href="#m11">LoginError</a></td><td rowspan="1">1686565276337</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m12">productError</a></td><td rowspan="1">1686565277477</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Submit Order Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">HCL_TECH.SeleniumFrameworkDesign.Standalone</td><td><a href="#m0">SubmitOrder</a></td><td rowspan="2">1686566435093</td><td rowspan="2">5916</td></tr><tr class="passedeven"><td><a href="#m1">SubmitOrder</a></td></tr><tr class="passedeven"><td><a href="#m2">orderHistory</a></td><td rowspan="1">1686566443346</td><td rowspan="1">719</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Error validations Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">HCL_TECH.SeleniumFrameworkDesign.ErrorValidation</td><td><a href="#m3">LoginError</a></td><td rowspan="1">1686566446664</td><td rowspan="1">547</td></tr><tr class="passedeven"><td><a href="#m4">productError</a></td><td rowspan="1">1686566449295</td><td rowspan="1">5036</td></tr></tbody>
 </table>
-<h2>Submit Order Test</h2><h3 id="m0">HCL_TECH.SeleniumFrameworkDesign.Standalone#launchApplication</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60016/devtools/browser/de7a610b-382a-4467-9805-fc3b823a5ad0
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;LAPTOP-7DJ18U3D&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:77)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)
-	at BaseClassTestComponents.BaseTest.initializeDriver(BaseTest.java:69)
-	at BaseClassTestComponents.BaseTest.launchApplication(BaseTest.java:112)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">HCL_TECH.SeleniumFrameworkDesign.Standalone#launchApplication</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60030/devtools/browser/257111ff-8c44-4736-a507-1057c7df6697
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;LAPTOP-7DJ18U3D&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:77)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)
-	at BaseClassTestComponents.BaseTest.initializeDriver(BaseTest.java:69)
-	at BaseClassTestComponents.BaseTest.launchApplication(BaseTest.java:112)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">HCL_TECH.SeleniumFrameworkDesign.Standalone#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null
-	at BaseClassTestComponents.BaseTest.tearDown(BaseTest.java:122)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">HCL_TECH.SeleniumFrameworkDesign.Standalone#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null
-	at BaseClassTestComponents.BaseTest.tearDown(BaseTest.java:122)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">HCL_TECH.SeleniumFrameworkDesign.Standalone#SubmitOrder</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60016/devtools/browser/de7a610b-382a-4467-9805-fc3b823a5ad0
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;LAPTOP-7DJ18U3D&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:77)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)
-	at BaseClassTestComponents.BaseTest.initializeDriver(BaseTest.java:69)
-	at BaseClassTestComponents.BaseTest.launchApplication(BaseTest.java:112)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">HCL_TECH.SeleniumFrameworkDesign.Standalone#SubmitOrder</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60016/devtools/browser/de7a610b-382a-4467-9805-fc3b823a5ad0
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;LAPTOP-7DJ18U3D&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:77)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)
-	at BaseClassTestComponents.BaseTest.initializeDriver(BaseTest.java:69)
-	at BaseClassTestComponents.BaseTest.launchApplication(BaseTest.java:112)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">HCL_TECH.SeleniumFrameworkDesign.Standalone#orderHistory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method Standalone.orderHistory()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.Standalone@50fe837a] depends on not successfully finished methods
-... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Error validations Test</h2><h3 id="m7">HCL_TECH.SeleniumFrameworkDesign.ErrorValidation#launchApplication</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60044/devtools/browser/fad67475-5ba5-49ef-9b4e-e5f3fd8f57d7
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;LAPTOP-7DJ18U3D&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:77)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)
-	at BaseClassTestComponents.BaseTest.initializeDriver(BaseTest.java:69)
-	at BaseClassTestComponents.BaseTest.launchApplication(BaseTest.java:112)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">HCL_TECH.SeleniumFrameworkDesign.ErrorValidation#launchApplication</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60058/devtools/browser/dcaeef99-92a7-4813-a009-875674f591f1
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;LAPTOP-7DJ18U3D&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:77)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)
-	at BaseClassTestComponents.BaseTest.initializeDriver(BaseTest.java:69)
-	at BaseClassTestComponents.BaseTest.launchApplication(BaseTest.java:112)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">HCL_TECH.SeleniumFrameworkDesign.ErrorValidation#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null
-	at BaseClassTestComponents.BaseTest.tearDown(BaseTest.java:122)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">HCL_TECH.SeleniumFrameworkDesign.ErrorValidation#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null
-	at BaseClassTestComponents.BaseTest.tearDown(BaseTest.java:122)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">HCL_TECH.SeleniumFrameworkDesign.ErrorValidation#LoginError</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60044/devtools/browser/fad67475-5ba5-49ef-9b4e-e5f3fd8f57d7
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;LAPTOP-7DJ18U3D&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:77)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)
-	at BaseClassTestComponents.BaseTest.initializeDriver(BaseTest.java:69)
-	at BaseClassTestComponents.BaseTest.launchApplication(BaseTest.java:112)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">HCL_TECH.SeleniumFrameworkDesign.ErrorValidation#productError</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60044/devtools/browser/fad67475-5ba5-49ef-9b4e-e5f3fd8f57d7
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;LAPTOP-7DJ18U3D&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:77)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)
-	at BaseClassTestComponents.BaseTest.initializeDriver(BaseTest.java:69)
-	at BaseClassTestComponents.BaseTest.launchApplication(BaseTest.java:112)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Submit Order Test</h2><h3 id="m0">HCL_TECH.SeleniumFrameworkDesign.Standalone#SubmitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Guru@1234, product=ADIDAS ORIGINAL, email=gurupdas11@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">HCL_TECH.SeleniumFrameworkDesign.Standalone#SubmitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Munu@1234, product=ZARA COAT 3, email=guruprasad.das@hcl.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">HCL_TECH.SeleniumFrameworkDesign.Standalone#orderHistory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Error validations Test</h2><h3 id="m3">HCL_TECH.SeleniumFrameworkDesign.ErrorValidation#LoginError</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">HCL_TECH.SeleniumFrameworkDesign.ErrorValidation#productError</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

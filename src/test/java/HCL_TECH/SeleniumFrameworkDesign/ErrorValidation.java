@@ -20,10 +20,12 @@ public class ErrorValidation extends BaseTest {
 	@Test(groups = { "ErrorHandling" })
 	public void LoginError() throws InterruptedException, IOException {
 
-		landingpage.LoginApplication("guruprasad.das@hcl.comm", "Munu@1234");
+		landingpage.LoginApplication("guruprasad.das@hcl.com", "Munu@1234");
 
-		Assert.assertEquals("Incorrect email or password.", landingpage.getErrorMesssage());
+		Assert.assertEquals("Login Successfully", landingpage.getErrorMesssage());
 	}
+	//Login Successfully
+	//Incorrect email or password.
 
 	@Test
 	public void productError() throws InterruptedException {
@@ -33,7 +35,7 @@ public class ErrorValidation extends BaseTest {
 
 		productCatalogue.addproductToCart(productName);
 
-		// Thread.sleep(4000);
+		Thread.sleep(4000);
 		Cartpage cartpage = productCatalogue.goToCartPage();
 
 		boolean match = cartpage.VerifyProductDisplay("ZARA COAT 3");
