@@ -46,19 +46,33 @@ public class BaseTest {
 
 		// prop.getProperty("browser");
 
+//		if (browserName.contains("chrome")) {
+//
+//			ChromeOptions co = new ChromeOptions();
+//			co.addArguments("--remote-allow-origins=*");
+//			WebDriverManager.chromedriver().setup();
+//			if (browserName.contains("headless")) {
+//				co.addArguments("headless");
+//			}
+//
+//			driver.manage().window().setSize(new Dimension(1440, 900));
+//			driver = new ChromeDriver(co);
+//
+//		}
+		
 		if (browserName.contains("chrome")) {
-
-			ChromeOptions co = new ChromeOptions();
-			co.addArguments("--remote-allow-origins=*");
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
 			WebDriverManager.chromedriver().setup();
-			if (browserName.contains("headless")) {
-				co.addArguments("headless");
-			}
-
-			driver.manage().window().setSize(new Dimension(1440, 900));
-			driver = new ChromeDriver(co);
-
-		} else if (browserName.equalsIgnoreCase("firefox")) {
+			if(browserName.contains("headless")){
+			options.addArguments("headless");
+			}		
+			driver = new ChromeDriver(options);
+			driver.manage().window().setSize(new Dimension(1440,900));//full screen
+		
+		}
+		
+		else if (browserName.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		} else if (browserName.equalsIgnoreCase("Edge")) {
