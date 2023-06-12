@@ -55,17 +55,13 @@ public class BaseTest {
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-		}
-		else if (browserName.equalsIgnoreCase("Edge")) {
+		} else if (browserName.equalsIgnoreCase("Edge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
-		
-		
-		
+
 		}
-		
-		
-//mvn test -PRegression -Dbrowser=firefox  ====n 
+
+//mvn test -PRegression -Dbrowser=firefox  ====n n
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
