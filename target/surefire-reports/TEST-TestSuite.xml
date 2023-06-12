@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="94.165" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="52.141" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Guru Prasad Das\AppData\Local\Temp\surefire10425530958359610606\surefirebooter16603942624178363715.jar C:\Users\Guru Prasad Das\AppData\Local\Temp\surefire10425530958359610606 2023-06-12T12-03-11_456-jvmRun1 surefire1855678987141759434tmp surefire_016348893357026648986tmp"/>
+    <property name="sun.java.command" value="C:\Users\Guru Prasad Das\AppData\Local\Temp\surefire13916247852549369214\surefirebooter16601145652401606481.jar C:\Users\Guru Prasad Das\AppData\Local\Temp\surefire13916247852549369214 2023-06-12T12-57-01_949-jvmRun1 surefire13609726928545893179tmp surefire_016548170430359179623tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Guru Prasad Das\Desktop\Struggle\eclipse storage\SeleniumFrameworkDesign\target\test-classes;C:\Users\Guru Prasad Das\Desktop\Struggle\eclipse storage\SeleniumFrameworkDesign\target\classes;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-java\4.3.0\selenium-java-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-api\4.3.0\selenium-api-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.3.0\selenium-chrome-driver-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.3.0\selenium-chromium-driver-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-json\4.3.0\selenium-json-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.3.0\selenium-devtools-v101-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.3.0\selenium-devtools-v102-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.3.0\selenium-devtools-v103-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.3.0\selenium-devtools-v85-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.3.0\selenium-edge-driver-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.3.0\selenium-firefox-driver-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.3.0\selenium-ie-driver-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.3.0\selenium-opera-driver-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.3.0\selenium-remote-driver-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\opentelemetry\opentelemetry-api\1.15.0\opentelemetry-api-1.15.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\opentelemetry\opentelemetry-context\1.15.0\opentelemetry-context-1.15.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.15.0\opentelemetry-exporter-logging-1.15.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.15.0\opentelemetry-sdk-metrics-1.15.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.15.0-alpha\opentelemetry-sdk-logs-1.15.0-alpha.jar;C:\Users\Guru Prasad Das\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.15.0\opentelemetry-sdk-common-1.15.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.15.0\opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.15.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar;C:\Users\Guru Prasad Das\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.15.0\opentelemetry-sdk-trace-1.15.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.15.0\opentelemetry-sdk-1.15.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.15.0-alpha\opentelemetry-semconv-1.15.0-alpha.jar;C:\Users\Guru Prasad Das\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Guru Prasad Das\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Guru Prasad Das\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Guru Prasad Das\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Guru Prasad Das\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Guru Prasad Das\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Guru Prasad Das\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-http\4.3.0\selenium-http-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.3.0\selenium-safari-driver-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-support\4.3.0\selenium-support-4.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-java\7.5.0\cucumber-java-7.5.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-core\7.5.0\cucumber-core-7.5.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-gherkin\7.5.0\cucumber-gherkin-7.5.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.5.0\cucumber-gherkin-messages-7.5.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\datatable\7.5.0\datatable-7.5.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-plugin\7.5.0\cucumber-plugin-7.5.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\docstring\7.5.0\docstring-7.5.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\html-formatter\19.2.0\html-formatter-19.2.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-testng\7.5.0\cucumber-testng-7.5.0.jar;C:\Users\Guru Prasad Das\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Guru Prasad Das\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Guru Prasad Das\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Guru Prasad Das\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Guru Prasad Das\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Guru Prasad Das\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.1\webdrivermanager-5.1.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Guru Prasad Das\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Guru Prasad Das\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Guru Prasad Das\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Guru Prasad Das\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Guru Prasad Das\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Guru Prasad Das\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Guru Prasad Das\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Guru Prasad Das\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Guru Prasad Das\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Guru Prasad Das\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\Guru Prasad Das\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Guru Prasad Das\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Guru Prasad Das\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Guru Prasad Das\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\Guru Prasad Das\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\Guru Prasad Das\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Guru Prasad Das\AppData\Local\Temp\surefire10425530958359610606\surefirebooter16603942624178363715.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Guru Prasad Das\AppData\Local\Temp\surefire13916247852549369214\surefirebooter16601145652401606481.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -58,34 +58,33 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="SubmitOrder[{password=Munu@1234, product=ZARA COAT 3, email=guruprasad.das@hcl.com}](1)" classname="HCL_TECH.SeleniumFrameworkDesign.Standalone" time="7.997">
+  <testcase name="SubmitOrder[{password=Munu@1234, product=ZARA COAT 3, email=guruprasad.das@hcl.com}](1)" classname="HCL_TECH.SeleniumFrameworkDesign.Standalone" time="6.461">
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1686551603514	geckodriver	INFO	Listening on 127.0.0.1:55375
-1686551604443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55860" "--remote ... origins" "http://localhost:55860/" "-no-remote" "-profile" "C:\\Users\\GURUPR~1\\AppData\\Local\\Temp\\rust_mozprofilevagsFg"
+1686554825056	geckodriver	INFO	Listening on 127.0.0.1:49324
+1686554825372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57953" "--remote ... origins" "http://localhost:57953/" "-no-remote" "-profile" "C:\\Users\\GURUPR~1\\AppData\\Local\\Temp\\rust_mozprofilelhV6bW"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1686551605487	Marionette	INFO	Marionette enabled
+1686554825986	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1686551605498	Marionette	INFO	Listening on port 60596
-Read port: 60596
-WebDriver BiDi listening on ws://127.0.0.1:55860
-1686551605937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:55860/devtools/browser/1b05da3b-92c3-47b6-b91f-68fd74a03739
-Jun 12, 2023 12:03:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1686554825994	Marionette	INFO	Listening on port 53725
+Read port: 53725
+WebDriver BiDi listening on ws://127.0.0.1:57953
+1686554826253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57953/devtools/browser/f7bb3428-73b8-4618-85d1-00efb1e04e8b
+Jun 12, 2023 12:57:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
-[Parent 27084, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
 ]]></system-err>
   </testcase>
-  <testcase name="SubmitOrder[{password=Guru@1234, product=ADIDAS ORIGINAL, email=gurupdas11@gmail.com}](2)" classname="HCL_TECH.SeleniumFrameworkDesign.Standalone" time="8.164">
-    <system-err><![CDATA[1686551621985	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:60634
-JavaScript error: chrome://remote/content/server/WebSocketHandshake.sys.mjs, line 168: Error: The handshake request has incorrect Origin header http://127.0.0.1:55860
-Jun 12, 2023 12:03:41 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="SubmitOrder[{password=Guru@1234, product=ADIDAS ORIGINAL, email=gurupdas11@gmail.com}](2)" classname="HCL_TECH.SeleniumFrameworkDesign.Standalone" time="6.347">
+    <system-err><![CDATA[1686554838141	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53766
+JavaScript error: chrome://remote/content/server/WebSocketHandshake.sys.mjs, line 168: Error: The handshake request has incorrect Origin header http://127.0.0.1:57953
+Jun 12, 2023 12:57:18 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Invalid Status code=400 text=Bad Request
 java.io.IOException: Invalid Status code=400 text=Bad Request
 	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
@@ -117,9 +116,9 @@ java.io.IOException: Invalid Status code=400 text=Bad Request
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Jun 12, 2023 12:03:41 PM org.openqa.selenium.remote.RemoteWebDriver close
+Jun 12, 2023 12:57:18 PM org.openqa.selenium.remote.RemoteWebDriver close
 SEVERE: Failed to disconnect DevTools session
-org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://127.0.0.1:55860/devtools/browser/1b05da3b-92c3-47b6-b91f-68fd74a03739
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://127.0.0.1:57953/devtools/browser/f7bb3428-73b8-4618-85d1-00efb1e04e8b
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'LAPTOP-7DJ18U3D', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: driver.version: RemoteWebDriver
@@ -163,29 +162,30 @@ Driver info: driver.version: RemoteWebDriver
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-1686551622016	Marionette	INFO	Stopped listening on port 60596
+1686554838155	Marionette	INFO	Stopped listening on port 53725
 Dynamically enable window occlusion 1
-1686551624411	geckodriver	INFO	Listening on 127.0.0.1:60883
-1686551624459	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54102" "--remote ... origins" "http://localhost:54102/" "-no-remote" "-profile" "C:\\Users\\GURUPR~1\\AppData\\Local\\Temp\\rust_mozprofileTZTHyX"
+1686554839316	geckodriver	INFO	Listening on 127.0.0.1:62716
+1686554839348	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49196" "--remote ... origins" "http://localhost:49196/" "-no-remote" "-profile" "C:\\Users\\GURUPR~1\\AppData\\Local\\Temp\\rust_mozprofiler2q5mq"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1686551625443	Marionette	INFO	Marionette enabled
+1686554839724	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1686551625456	Marionette	INFO	Listening on port 60709
-Read port: 60709
-WebDriver BiDi listening on ws://127.0.0.1:54102
-1686551626118	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:54102/devtools/browser/863d5758-2612-4658-8dad-422fd58c8048
-Jun 12, 2023 12:03:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1686554839729	Marionette	INFO	Listening on port 53839
+Read port: 53839
+WebDriver BiDi listening on ws://127.0.0.1:49196
+1686554839942	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49196/devtools/browser/0faff717-9854-4524-86a1-a435a7831746
+Jun 12, 2023 12:57:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
+[Parent 12684, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
 ]]></system-err>
   </testcase>
-  <testcase name="orderHistory" classname="HCL_TECH.SeleniumFrameworkDesign.Standalone" time="1.364">
-    <system-err><![CDATA[1686551642282	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:60754
-JavaScript error: chrome://remote/content/server/WebSocketHandshake.sys.mjs, line 168: Error: The handshake request has incorrect Origin header http://127.0.0.1:54102
-Jun 12, 2023 12:04:02 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="orderHistory" classname="HCL_TECH.SeleniumFrameworkDesign.Standalone" time="0.601">
+    <system-err><![CDATA[1686554850919	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53879
+JavaScript error: chrome://remote/content/server/WebSocketHandshake.sys.mjs, line 168: Error: The handshake request has incorrect Origin header http://127.0.0.1:49196
+Jun 12, 2023 12:57:30 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Invalid Status code=400 text=Bad Request
 java.io.IOException: Invalid Status code=400 text=Bad Request
 	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
@@ -217,9 +217,9 @@ java.io.IOException: Invalid Status code=400 text=Bad Request
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Jun 12, 2023 12:04:02 PM org.openqa.selenium.remote.RemoteWebDriver close
+Jun 12, 2023 12:57:30 PM org.openqa.selenium.remote.RemoteWebDriver close
 SEVERE: Failed to disconnect DevTools session
-org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://127.0.0.1:54102/devtools/browser/863d5758-2612-4658-8dad-422fd58c8048
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://127.0.0.1:49196/devtools/browser/0faff717-9854-4524-86a1-a435a7831746
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'LAPTOP-7DJ18U3D', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: driver.version: RemoteWebDriver
@@ -263,29 +263,29 @@ Driver info: driver.version: RemoteWebDriver
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-1686551642300	Marionette	INFO	Stopped listening on port 60709
+1686554850927	Marionette	INFO	Stopped listening on port 53839
 Dynamically enable window occlusion 1
-1686551645270	geckodriver	INFO	Listening on 127.0.0.1:57755
-1686551645314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50072" "--remote ... origins" "http://localhost:50072/" "-no-remote" "-profile" "C:\\Users\\GURUPR~1\\AppData\\Local\\Temp\\rust_mozprofile1tQ8vn"
+1686554851953	geckodriver	INFO	Listening on 127.0.0.1:49942
+1686554851977	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49705" "--remote ... origins" "http://localhost:49705/" "-no-remote" "-profile" "C:\\Users\\GURUPR~1\\AppData\\Local\\Temp\\rust_mozprofile3ZWREh"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1686551646437	Marionette	INFO	Marionette enabled
+1686554852361	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1686551646447	Marionette	INFO	Listening on port 60844
-Read port: 60844
-WebDriver BiDi listening on ws://127.0.0.1:50072
-1686551646898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:50072/devtools/browser/843c2b48-c8ad-40df-a4ca-17db85169838
-Jun 12, 2023 12:04:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1686554852368	Marionette	INFO	Listening on port 53928
+Read port: 53928
+WebDriver BiDi listening on ws://127.0.0.1:49705
+1686554852599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49705/devtools/browser/e54edb3d-21ad-43c5-9873-005acd599ca8
+Jun 12, 2023 12:57:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
 ]]></system-err>
   </testcase>
-  <testcase name="LoginError" classname="HCL_TECH.SeleniumFrameworkDesign.ErrorValidation" time="0.861">
-    <system-err><![CDATA[1686551656213	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:60881
-JavaScript error: chrome://remote/content/server/WebSocketHandshake.sys.mjs, line 168: Error: The handshake request has incorrect Origin header http://127.0.0.1:50072
-Jun 12, 2023 12:04:16 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="LoginError" classname="HCL_TECH.SeleniumFrameworkDesign.ErrorValidation" time="0.358">
+    <system-err><![CDATA[1686554859303	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53961
+JavaScript error: chrome://remote/content/server/WebSocketHandshake.sys.mjs, line 168: Error: The handshake request has incorrect Origin header http://127.0.0.1:49705
+Jun 12, 2023 12:57:39 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Invalid Status code=400 text=Bad Request
 java.io.IOException: Invalid Status code=400 text=Bad Request
 	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
@@ -317,9 +317,9 @@ java.io.IOException: Invalid Status code=400 text=Bad Request
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Jun 12, 2023 12:04:16 PM org.openqa.selenium.remote.RemoteWebDriver close
+Jun 12, 2023 12:57:39 PM org.openqa.selenium.remote.RemoteWebDriver close
 SEVERE: Failed to disconnect DevTools session
-org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://127.0.0.1:50072/devtools/browser/843c2b48-c8ad-40df-a4ca-17db85169838
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://127.0.0.1:49705/devtools/browser/e54edb3d-21ad-43c5-9873-005acd599ca8
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'LAPTOP-7DJ18U3D', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: driver.version: RemoteWebDriver
@@ -363,23 +363,21 @@ Driver info: driver.version: RemoteWebDriver
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-1686551656224	Marionette	INFO	Stopped listening on port 60844
+1686554859309	Marionette	INFO	Stopped listening on port 53928
 Dynamically enable window occlusion 1
-1686551658898	geckodriver	INFO	Listening on 127.0.0.1:62819
-1686551658960	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62422" "--remote ... origins" "http://localhost:62422/" "-no-remote" "-profile" "C:\\Users\\GURUPR~1\\AppData\\Local\\Temp\\rust_mozprofilezB8ChV"
+1686554860565	geckodriver	INFO	Listening on 127.0.0.1:63906
+1686554860591	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59168" "--remote ... origins" "http://localhost:59168/" "-no-remote" "-profile" "C:\\Users\\GURUPR~1\\AppData\\Local\\Temp\\rust_mozprofile03bLi3"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1686551660187	Marionette	INFO	Marionette enabled
+1686554860956	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1686551660198	Marionette	INFO	Listening on port 61033
-Read port: 61033
-WebDriver BiDi listening on ws://127.0.0.1:62422
-1686551660760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:62422/devtools/browser/de602565-ceea-4cd9-a335-9ff2ea93bc8f
-Jun 12, 2023 12:04:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1686554860961	Marionette	INFO	Listening on port 54030
+Read port: 54030
+WebDriver BiDi listening on ws://127.0.0.1:59168
+1686554861176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59168/devtools/browser/d6e2589b-b1e1-4e98-bcc4-a05257a3f825
+Jun 12, 2023 12:57:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
-console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
 ]]></system-err>
   </testcase>
