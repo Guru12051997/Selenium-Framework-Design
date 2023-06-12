@@ -1,0 +1,9 @@
+# Created at 2023-06-11T15:54:01.144
+Tried to run command without establishing a connection
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-7DJ18U3D', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [28ebabf6-01d6-4959-a49f-6445f8fb85a3, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0, moz:accessibilityChecks: false, moz:buildID: 20230504192738, moz:debuggerAddress: 127.0.0.1:62511, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3792, moz:profile: C:\Users\GURUPR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:62511/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 28ebabf6-01d6-4959-a49f-6445f8fb85a3
+
