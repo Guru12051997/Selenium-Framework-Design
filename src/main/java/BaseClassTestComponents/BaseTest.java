@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -45,11 +46,16 @@ public class BaseTest {
 
 		// prop.getProperty("browser");
 
-		if (browserName.equalsIgnoreCase("chrome")) {
+		if (browserName.contains("chrome")) {
 
 			ChromeOptions co = new ChromeOptions();
 			co.addArguments("--remote-allow-origins=*");
 			WebDriverManager.chromedriver().setup();
+			if (browserName.contains("headless")) {
+				co.addArguments("headless");
+			}
+
+			driver.manage().window().setSize(new Dimension(1440, 900));
 			driver = new ChromeDriver(co);
 
 		} else if (browserName.equalsIgnoreCase("firefox")) {
