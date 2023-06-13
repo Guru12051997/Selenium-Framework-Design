@@ -82,6 +82,7 @@ public class BaseTest {
 		}
 
 //mvn test -PRegression -Dbrowser=firefox  ====n n
+		//CucumberTests
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();

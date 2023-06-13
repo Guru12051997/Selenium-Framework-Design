@@ -1,97 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-12T10:40:21Z" name="Suite" finished-at="2023-06-12T10:40:54Z" duration-ms="32552">
+  <suite started-at="2023-06-13T11:08:23Z" name="Default suite" finished-at="2023-06-13T11:08:39Z" duration-ms="16371">
     <groups>
-      <group name="Purchase">
-        <method signature="Standalone.SubmitOrder(java.util.HashMap)[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.Standalone@50fe837a]" name="SubmitOrder" class="HCL_TECH.SeleniumFrameworkDesign.Standalone"/>
-      </group> <!-- Purchase -->
-      <group name="ErrorHandling">
-        <method signature="ErrorValidation.LoginError()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.ErrorValidation@31e75d13]" name="LoginError" class="HCL_TECH.SeleniumFrameworkDesign.ErrorValidation"/>
-      </group> <!-- ErrorHandling -->
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@363a52f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-06-12T10:40:21Z" name="Submit Order Test" finished-at="2023-06-12T10:40:44Z" duration-ms="22257">
-      <class name="HCL_TECH.SeleniumFrameworkDesign.Standalone">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.Standalone@50fe837a]" started-at="2023-06-12T10:40:22Z" name="launchApplication" finished-at="2023-06-12T10:40:25Z" duration-ms="3220" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.Standalone@50fe837a]" started-at="2023-06-12T10:40:25Z" name="SubmitOrder" data-provider="getData" finished-at="2023-06-12T10:40:32Z" duration-ms="6729" status="PASS">
+    <test started-at="2023-06-13T11:08:23Z" name="Default test" finished-at="2023-06-13T11:08:39Z" duration-ms="16371">
+      <class name="cucumber.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@363a52f]" started-at="2023-06-13T11:08:23Z" name="setUpClass" finished-at="2023-06-13T11:08:24Z" duration-ms="1351" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=Munu@1234, product=ZARA COAT 3, email=guruprasad.das@hcl.com}]]>
+                <![CDATA[org.testng.TestRunner@30a9e3db]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SubmitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.Standalone@50fe837a]" started-at="2023-06-12T10:40:32Z" name="tearDown" finished-at="2023-06-12T10:40:32Z" duration-ms="108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.Standalone@50fe837a]" started-at="2023-06-12T10:40:32Z" name="launchApplication" finished-at="2023-06-12T10:40:35Z" duration-ms="2909" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.Standalone@50fe837a]" started-at="2023-06-12T10:40:35Z" name="SubmitOrder" data-provider="getData" finished-at="2023-06-12T10:40:41Z" duration-ms="5916" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@363a52f]" started-at="2023-06-13T11:08:24Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-13T11:08:39Z" duration-ms="14791" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=Guru@1234, product=ADIDAS ORIGINAL, email=gurupdas11@gmail.com}]]>
+                <![CDATA["Positive Test of Submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from Ecommerce Website"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SubmitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.Standalone@50fe837a]" started-at="2023-06-12T10:40:41Z" name="tearDown" finished-at="2023-06-12T10:40:41Z" duration-ms="116" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@363a52f]" started-at="2023-06-13T11:08:39Z" name="tearDownClass" finished-at="2023-06-13T11:08:39Z" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.Standalone@50fe837a]" started-at="2023-06-12T10:40:41Z" name="launchApplication" finished-at="2023-06-12T10:40:43Z" duration-ms="2214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="orderHistory()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.Standalone@50fe837a]" started-at="2023-06-12T10:40:43Z" name="orderHistory" finished-at="2023-06-12T10:40:44Z" depends-on-methods="HCL_TECH.SeleniumFrameworkDesign.Standalone.SubmitOrder" duration-ms="719" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderHistory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.Standalone@50fe837a]" started-at="2023-06-12T10:40:44Z" name="tearDown" finished-at="2023-06-12T10:40:44Z" duration-ms="71" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- HCL_TECH.SeleniumFrameworkDesign.Standalone -->
-    </test> <!-- Submit Order Test -->
-    <test started-at="2023-06-12T10:40:44Z" name="Error validations Test" finished-at="2023-06-12T10:40:54Z" duration-ms="9746">
-      <class name="HCL_TECH.SeleniumFrameworkDesign.ErrorValidation">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.ErrorValidation@31e75d13]" started-at="2023-06-12T10:40:44Z" name="launchApplication" finished-at="2023-06-12T10:40:46Z" duration-ms="1977" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="LoginError()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.ErrorValidation@31e75d13]" started-at="2023-06-12T10:40:46Z" name="LoginError" finished-at="2023-06-12T10:40:47Z" duration-ms="547" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginError -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.ErrorValidation@31e75d13]" started-at="2023-06-12T10:40:47Z" name="tearDown" finished-at="2023-06-12T10:40:47Z" duration-ms="115" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.ErrorValidation@31e75d13]" started-at="2023-06-12T10:40:47Z" name="launchApplication" finished-at="2023-06-12T10:40:49Z" duration-ms="1967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="productError()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.ErrorValidation@31e75d13]" started-at="2023-06-12T10:40:49Z" name="productError" finished-at="2023-06-12T10:40:54Z" duration-ms="5036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productError -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HCL_TECH.SeleniumFrameworkDesign.ErrorValidation@31e75d13]" started-at="2023-06-12T10:40:54Z" name="tearDown" finished-at="2023-06-12T10:40:54Z" duration-ms="100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- HCL_TECH.SeleniumFrameworkDesign.ErrorValidation -->
-    </test> <!-- Error validations Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
